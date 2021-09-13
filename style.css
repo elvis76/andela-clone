@@ -12,15 +12,14 @@ nav{
     padding: 10px 2%;
 
 }
-nav#menu-btn{
+nav #menu-btn{
     border: none;
     background-color: transparent;
     cursor: pointer;
     font-size: 24px;
     color: #1637f1;
-
 }
-nav#logo{
+nav #logo{
     margin: 0px 20px;
 
 }
@@ -40,7 +39,7 @@ nav ul li{
 
 
 }
-NAV button:is(#hire, #join){
+nav button:is(#hire, #join){
     padding: 10px 30px;
     margin: 5px 10px;
     border: none;
@@ -56,4 +55,38 @@ nav button#join{
     background-color: hsla(44, 88%, 46%, 0.952);
     margin-right: 20px;
 }
-}
+ /* hero sections style */
+ section#hero{
+     display: flex;
+     padding: 20px 5%;
+     background-color: #f4f6fc;
+
+ }
+ section#hero> div{
+     flex: 1;
+
+ }
+ section#hero .details{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;   
+ }
+ section#hero .details h1{
+     color: #1f2c46;
+     font-size: 2.5em;
+     font-weight: bold;
+ }
+ section#hero .details button{
+     background-color: #3359df;
+     color: #fff;
+     border: none;
+     cursor: pointer;
+     padding: 15px 30px;
+     font-size: 18px;
+     margin: 20px 0px;
+ }
+
+ section#hero > div img{
+     width: 100%;
+ } 
